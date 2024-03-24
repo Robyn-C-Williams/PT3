@@ -1,10 +1,14 @@
 # This is a lottery ticket generator 
 import random
 
+# I have created the userInput branch
+username = input("Please enter your name: ")
 
+# I have created the lottoCreator branch
+lottoNumbers = input(int("Please enter the amount of numbers you wish to generate: "))
 
-# The amount of numbers the ticket must have
-ticket_numbers = 6
+# The amount of numbers the ticket must have is the submitted amount from the user.
+ticket_numbers = lottoNumbers
 
 # print random numbers
 for i in range(ticket_numbers):
