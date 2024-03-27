@@ -17,5 +17,8 @@ ticket_numbers = lottoNumbers
 for i in range(ticket_numbers):
     print (random.randint(1,59))
 
-# I have created a feedback brach
+# I have created a feedback branch
 feedback = input("Please let us know if you enjoyed this app: ")
+
+# I have created a branch for the users email
+email = input("Please enter your email address to receive our newsletter: ")
