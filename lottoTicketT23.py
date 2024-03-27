@@ -4,6 +4,9 @@ import random
 # I have created the userInput branch
 username = input("Please enter your name: ")
 
+# I have created another input for the user to create a profile name
+profilename = input("Please create a name for your profile: ")
+
 # I have created the lottoCreator branch
 lottoNumbers = input(int("Please enter the amount of numbers you wish to generate: "))
 
